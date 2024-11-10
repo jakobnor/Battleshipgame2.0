@@ -1,0 +1,40 @@
+const messages = {
+    en: {
+        'start_game': 'Start Game',
+        'exit_game': 'Exit Game',
+        'ship_placement_first_player': 'SHIP PLACEMENT\nFirst player get ready.\nPlayer two look away',
+        'ship_placement_second_player': 'SHIP PLACEMENT\nSecond player get ready.\nPlayer one look away',
+        'ship_placement_phase': 'Ship Placement Phase',
+        'controls': 'Controls:',
+        'arrow_keys_move': 'Arrow keys: Move cursor',
+        'r_rotate': 'R: Rotate ship',
+        'enter_place_ship': 'Enter: Place ship',
+        'ships_to_place': 'Ships to place:',
+        'game_over': 'Game Over',
+        'player_wins': 'Player {player} wins!',
+        'player_turn': 'Player {player}\'s Turn',
+        'opponent_board': 'Opponent Board:',
+        'your_board': 'Your Board:',
+        'press_enter_return': 'Press Enter to return to the main menu.',
+    },
+    no: {
+        'start_game': 'Start Spill',
+        'exit_game': 'Avslutt Spill',
+        'ship_placement_first_player': 'PLASSERING AV SKIP\nSpiller en gjør seg klar.\nSpiller to ser bort',
+        'ship_placement_second_player': 'PLASSERING AV SKIP\nSpiller to gjør seg klar.\nSpiller en ser bort',
+        'ship_placement_phase': 'Fase for Plassering av Skip',
+        'controls': 'Kontroller:',
+        'arrow_keys_move': 'Piltaster: Flytt markør',
+        'r_rotate': 'R: Roter skip',
+        'enter_place_ship': 'Enter: Plasser skip',
+        'ships_to_place': 'Skip å plassere:',
+        'game_over': 'Spillet er over',
+        'player_wins': 'Spiller {player} vinner!',
+        'player_turn': 'Spiller {player} sin tur',
+        'opponent_board': 'Motstanderens Brett:',
+        'your_board': 'Ditt Brett:',
+        'press_enter_return': 'Trykk Enter for å returnere til hovedmenyen.',
+    }
+};
+
+export default messages;
